@@ -1,0 +1,64 @@
+* {margin: 0px; padding: 0px;}
+:root {
+    --fonte1: "Passion One";
+    --fonte2: "Sriracha";
+    --fonte3: Verdana;
+}
+
+/* HEADER, FOOTER */
+header, footer {
+    background-color: black;
+    text-align: center;
+    color: white; 
+    padding: 30px;
+}
+h1#titulo {
+    font: normal normal 10vw var(--fonte1);
+    font-variant: small-caps;
+}
+header > p {
+    font-family: var(--fonte3);
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+main {
+    padding: 3vh 0px;
+}
+
+/* SECTIONS */
+section {
+    font: normal normal 3vw var(--fonte2);
+}
+.texto {
+    margin: 40px;
+}
+.imagem {
+    padding: 40px;
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 20px;
+    width: 40vw;
+    color: white;
+}
+#imagem1 {
+    background: greenyellow url('imagens/background001.jpg') center center/cover no-repeat fixed;
+}
+#imagem2 {
+    background: lightgray url('imagens/background002.jpg') center center/cover no-repeat fixed;
+}
+
+/* FOOTER */
+footer {
+    font: normal normal 18px var(--fonte3);
+}
