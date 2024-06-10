@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+
+h1 {color: white; font-size: 43px}
+
+main {margin: auto; text-align: center}
+
+div {display: block;}
+
+img {width: 300px}
+
+a {text-decoration: none}
+
+p {font-size: 24px; color: white}
+
+#icon-back {width: 63px; height: 68px}
