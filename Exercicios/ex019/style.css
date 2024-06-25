@@ -1,0 +1,39 @@
+/* 
+  Todo id em HTML é # em CSS (só pode em um elemento)
+  Tudo que é class, em CSS é . (pode em múltiplos elementos)
+*/
+
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+#principal {
+    text-align: center;
+    background-color: aliceblue;
+    color: red;
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: orange;
+}
+
+h2 {
+    color: blueviolet;
+}

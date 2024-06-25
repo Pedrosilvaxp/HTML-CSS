@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações 2.0</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p><code><!--Essa tag é uma tag semântica, que informa ao navegador que se trata de um prog. de computador--><pre>
+    num = int(input("Digite um valor: "))
+
+    if num % 2 == 0:
+        print(f"O número {num} é par")
+    else:
+        print(f"O número {num} é ímpar")
+    </pre></code>
+    </p>
+    <h2>Citações</h2>
+    <p>Neste texto, temos <q>uma citação</q> usando a tag &lt;q&gt; que vem da palavra em inglês quote (citar)</p>
+    <p>A vida é como disse o chinês: <q>Shin tao takami shoya itaivu</q></p>
+    <h2>Citações em blocos</h2> <!--Dando a possibilidade de citar um site do texto original-->
+    <p><blockquote cite="https://www.apple.com/stor
+        e?cid=oas-us-domains-applestore.com">
+        A Apple é uma empresa incrível. Gostaria de um dia trabalhar nela, desenvolvendo seus sites
+    </blockquote></p>
+
+    <h2>Abreviações</h2>
+    <p>Estou aprendendo <abbr title="Hyper Text Markeup Language">HTML</abbr> para criar sites</p>
+
+    <h2>Texto invetido</h2>
+    <p><code><pre><bdo dir="rtl">Este texto está invertido</bdo> com a tag &lt;bdo&gt; para deixar o texto 
+    de trás pra frente</pre></code></p>
+    <p><bdo dir="rtl">Estou aprendendo HTML para criar sites</bdo></p>
+
+    <h2>Prática</h2>
+    <p><code><pre>
+    nome = int(input("Olá, qual é o seu nome? ")).strip().lower()
+    if nome.count('silva') == 1:
+        print("Tem Silva no seu nome")
+    else:
+        
+    </pre></code></p>
+</body>
+</html>

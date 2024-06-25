@@ -1,0 +1,25 @@
+A altura das letras minúsculas é chamada de linha mediana. A letra x é o ponto de partida para as medidas
+Quando a letra minúscula passa acima dessa medida, é chamada de ascendente.
+Quando abaixo, descendente. O tamanho da altura total é chamado de corpo.
+
+Oque é uma serifa?
+Anatomia Geométrica:
+
+É um tipo de fonte, que tem linhas e características, que guiam a leitura, facilitando-a:
+haste - linha principal do glifo, geralmente vertical
+esporão - Na letra b minúscula, para dar uma base à letra.
+arco - Presente na letra n, fazendo uma ligação com uma haste
+filete - (deitadinha) Presente ao meio da letra A, faz uma ligação com duas hastes
+vértice - Ponta em cima da letra A
+terminal - Presente na letra r. Indica o ponto final de uma letra
+
+Anatomia Humanizada:
+
+espinha - Na letra s. É essa curva no meio da letra
+barriga - Presente na letra b. A parte redonda da frente
+calda - Presente nas letras Q e g. A calda abaixo
+pé - O 'pé' da letra A
+perna(haste) - Parte principal da letra
+braço - Inclinado para cima, 
+orelha - Na letra g, a 'orelha' de cima
+olho - Dentro da letra O

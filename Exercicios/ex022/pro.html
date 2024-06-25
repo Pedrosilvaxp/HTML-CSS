@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <style>
+        body {
+            background: blue url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+            position: relative;
+            height: 100vh;
+        }
+        form {
+            background: lightcyan;
+            width: 350px;
+            padding: 10px 4px 20px;
+            text-align: center;
+            border-radius: 30px;
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        form > .text {
+            background: lightblue url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+            height: 22px;
+            padding: 6px;
+            margin: 6px;
+            color: aliceblue;
+        }
+        form > #enter {
+            background: lightblue;
+            padding: 6px;
+            display: block;
+            margin: 20px auto;
+            width: 184px;
+            color: aliceblue;
+        }
+        form > #enter:hover {
+            background: lightblue url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="login">
+            <h1>Login</h1>
+            <input class="text" type="email" name="email" id="email" placeholder="Seu email">
+            <input class="text" type="password" name="senha" id="senha" placeholder="Sua senha">
+            <input id="enter" type="submit" value="Entrar">
+        </form>
+    </main>
+</body>
+</html>

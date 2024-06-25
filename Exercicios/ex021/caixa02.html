@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 4px 4px 10px 10px;
+            width: auto;
+            border-radius: 10px ;
+            box-shadow: 2px 2px 2px rgb(99, 102, 106);
+        }
+        nav > a {
+            margin-right: 40px;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: aqua;
+        }
+
+        section {
+            background-color: azure;
+            border-radius: 8px;
+        }
+        article {
+            background-color: white;
+            padding: 3px 3px;
+            border-radius: 10px;
+        }
+
+        footer {
+            margin: 20px;
+            text-align: center;
+            background-color: darkblue;
+            color: white;
+        }
+        footer > p {
+            display: none;
+        }
+        footer:hover > p {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O Cabeçalho</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <section>
+        <h1>O Tópico</h1>
+        <article>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quis temporibus numquam aspernatur vero repudiandae optio id soluta! Sapiente nulla repellendus maxime, odio nihil perferendis doloribus rerum facilis nostrum! Ullam?</p>
+            <aside>
+                <p><em>Escrito pelo José da Silva</em></p>
+            </aside>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde commodi corporis impedit quia dolor neque, perspiciatis vitae harum dolore placeat molestias quaerat consequatur suscipit necessitatibus facilis? Ea dolorem atque nisi.</p>
+        </article>
+    </section>
+    <footer>
+        Autores:
+        <p>Machado, Cardoso, Mateus</p>
+    </footer>
+</body>
+</html>

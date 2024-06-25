@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to bottom, blue, white, rgb(0, 110, 255));
+    background-attachment: fixed;
+}
+
+main {
+    background-color: azure;
+    width: 470px;
+    margin: auto;
+    padding: 5%;
+    border-radius: 10%;
+    box-shadow: 7% 8% 15% darkblue;
+}
+
+/* Hover em Divs */
+div {
+    text-align: center;
+    border: 1px solid black;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover {
+    background-color: aqua;
+}
+
+.porta {
+    width: 0px;
+    height: 0px;
+}
+
+/* Escondendo um parágrafo */
+.porta > p {
+    display: none;
+    background-color: darkorange;
+    color: green;
+}
+.porta:hover > p {
+    display: block;
+}
+
+
+/* Personalizando links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: brown;
+}
+a:active {
+    color: yellow;
+}
+
+.especial:hover {
+    background-color: blue;
+    color: aqua;
+}
+
+/* Pseudoelementos */
+.especial::before {
+    content: '=> ';
+}
+.especial::after {
+    content: ' <=';
+}

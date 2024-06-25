@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+        }
+
+        caption {
+            background-color: aliceblue;
+            font: normal bold 20px Arial;
+            border: 1px solid;
+            padding: 9px;
+        }
+
+        th, td {
+            border: 1px solid;
+            padding: 8px;
+        }
+
+        thead, tfoot {
+            background: black;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        caption {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n */
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: aliceblue;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    
+    <!--
+        ANATOMIA DAS TABELAS
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num" style="width: 50px;">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">1339m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">2333333</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">2340M</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <th scope="row" class="num">0000</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsa quisquam sequi? Ipsam porro aperiam molestias, ad, iusto qui nostrum est atque doloribus a temporibus numquam vitae impedit earum voluptas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non cumque atque vitae dolorum assumenda explicabo eaque quisquam adipisci quod. Totam omnis, laudantium quam provident suscipit vel consequuntur sequi ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo mollitia a, incidunt in illo totam, debitis libero magnam aliquam atque cupiditate numquam. Quia doloremque autem sed laboriosam perspiciatis, voluptatibus eum.</p>
+</body>
+</html>

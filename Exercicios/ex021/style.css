@@ -1,0 +1,48 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+header > h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1px;
+}
+nav {
+    background-color: gray;
+    margin-right: 30px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.menu li {
+    background-color: rgb(1, 1, 1);
+    text-align: center;
+    display: inline-block;
+    margin:0 30px;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: aqua;
+}
+
+.topico {
+    text-align: center;
+}
+.text {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+}
+footer > p {
+    display: none;
+}
+footer:hover > p {
+    display: block;
+}

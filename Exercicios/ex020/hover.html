@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        /* Início do link */
+        a {
+           text-decoration: none;
+           color: red;
+           font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Class especial */
+        .especial:hover {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+        }
+
+        .especial::before {
+            content: '>>';
+            font-weight: lighter;
+        }
+        .especial::after {
+            content: '<<';
+            font-weight: lighter;
+        }
+
+        
+
+
+
+        div:hover {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o hover</h1>
+    <h2>Passe o mouse abaixo</h2>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exemplo</p>
+    <a href="link.html">Link do html</a> <br>
+    <a href="#">Escritório da W3C</a> <br>
+    <a href="#" class="especial">Curso em Vídeo</a>
+</body>
+</html>

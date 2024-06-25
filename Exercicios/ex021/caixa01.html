@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de caixas</title>
+    <style>
+        h1 {
+            display: /* inline e block */ ;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: pink;
+
+            border: 10px solid aqua;
+            padding: 1% 3%;
+            margin: 2% 2%;
+            outline: 7px solid yellow;
+        }
+
+        a {
+            font-style: italic;
+            border: 2px dotted greenyellow;
+            padding: 1% 1%;
+            margin: 1% 1%;
+            outline: 2px solid blue;
+            display: block;
+        }
+
+        /* As pseudo-class and elements */
+        a:hover {
+            background-color: aquamarine;
+        }
+        a:active {
+            background-color: yellow;
+        }
+        a:visited {
+            color: red;
+        }
+
+        a::before {
+            content: '=> ';
+        }
+        a::after {
+            content: ' <=';
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são box-level, mas os <a href="https://youtube.com" target="_blank"> links são exemplos de inline-level</a>. Vamos ver como tudo isso funciona <h1>Teste</h1></p>
+</body>
+</html>

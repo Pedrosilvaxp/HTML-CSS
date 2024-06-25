@@ -1,0 +1,37 @@
+Como fazer uma paleta de cores?'
+Em CSS, em body, uso a propriedade 'background-image'. No seu valor, uso uma outra "semi-propriedade" 'linear-gradient'.
+Dentro da linear-gradient, dentro de parênteses: (to bottom ou to right ou to left, color1, color2, color3...) Posso usar quantas cores eu quiser
+
+
+
+Como configurar uma main(conteúdo principal)?
+Uso a propriedade 'background-color' cor de fundo. Após isso temos as propriedades:
+width = Irá definir a largura da main
+padding = Dará espaços entre o conteúdo e as bordas da main
+margin = Com o valor 'auto', irá centralizar o conteúdo
+border-radius = Irá definir com porcentagens, o grau de redondeza das bordas
+box-shadow = Definirá a sombra na borda da main. Com os valores: 5%(de sombra, para o lado) 5%(pra baixo) 10%(de espalhamento) cor;
+
+
+Como configurar fontes?
+Com as propriedades: 
+font-family
+font-weight(100 À 900, lighter, normal, bold, bolder)
+font-style(italic, oblique...)
+font-size(13px OU 1em(medidas recomendadas))
+text-decoration(none, underline...)
+
+Com a propriedade font, ja posso configurar a font
+com a ordem:
+font: style weight size family
+
+Como capturar fontes? Com a extensão fontninja
+
+Como colocar fontes baixadas externamente?
+Usando o comando:
+@font-face {
+	font-family: 'nome q quiser';
+	src: url('caminho do aquivo fonte') format('tipo do arquivo');
+}
+
+Sempre acima no style
